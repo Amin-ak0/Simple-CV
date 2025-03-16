@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cccaca;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-content {
+    background: linear-gradient(to right, #1d5219, #2a9f3f); 
+    color: white;
+    text-align: left;
+    padding: 40px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.863);
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.hero-content h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.hero-content p {
+    margin: 5px 0;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.save-pdf-btn {
+    background: linear-gradient(to right, #247131e5, #00b351ba);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.save-pdf-btn:hover {
+    background: linear-gradient(to right, #2a7d2be7, #00800f);
+}
+
